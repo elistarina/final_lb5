@@ -1,6 +1,6 @@
 function getWeather() {
-    const cityName = "Kyiv"; // Замініть на назву міста, яке вас цікавить
-    const apiKey = "10b6a8df838ed2d9659ee3c63b0d1c8d"; // Ваш API ключ OpenWeatherMap
+    const cityName = "Kyiv"; 
+    const apiKey = "10b6a8df838ed2d9659ee3c63b0d1c8d";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
 
     fetch(apiUrl)
